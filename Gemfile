@@ -13,3 +13,4 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem 'slim'
 gem 'bootstrap-sass'
 gem 'middleman-google-analytics'
+gem 'therubyracer', platforms: :ruby
