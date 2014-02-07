@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import "bootstrap";
+
+body {
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+  max-width: 1000px;
+}
+
+#title {
+  background-image: url(../images/sky291.jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 180px;
+  text-align: left;
+  padding: 4px;
+}
+
+#title h1 {
+  letter-spacing: 0.5em;
+  text-decoration: underline;
+}
+
+#photo {
+  text-align: right;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+#menu {
+  max-width: 1000px;
+}
+
+#main {
+  max-width: 1000px;
+  padding: 4px;
+}
+
+#footer {
+  padding: 10px;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contents {
+  margin: 0px;
+  padding: 4px;
+}
+
+#icon {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  margin: 0px 20px 40px 0px;
+}
+
+img.icon {
+  width: 80px;
+  height: 80px;
+}
+
+img.icon {
+  width: 80px;
+  height: 80px;
+}
+
+ul.list {
+  list-style:none;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+.contents dt {
+  background-color: lemonchiffon;
+  text-decoration: underline;
+  margin-bottom: 4px;
+  padding: 2px;
+}

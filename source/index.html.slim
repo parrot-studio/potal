@@ -1,0 +1,45 @@
+---
+name: index
+---
+
+.contents
+  h2.alert.alert-info About Me
+  #icon
+    img.icon src="./images/icon.jpg"
+  .aboutme
+    dl
+      dt Name : "ぱろっと" / T.Tachiki
+      dd
+        ul.list
+          - data.aboutme.sns.each do |s|
+            li
+              | #{s.name} : 
+              a href="#{s.url}" #{s.account}
+.contents
+  h2.well.well-sm Blogs
+  .blogs
+    dl
+      - data.aboutme.blogs.each do |b|
+        dt #{b.title}
+        dd
+          p
+            a href="#{b.url}" #{b.url}
+          p #{b.description}
+.contents
+  h2.well.well-sm Programmings
+  .programmings
+    dl
+      dt Work
+      dd
+        p Ruby/JavaScript/Java/Perl/PHP/VB(.NET)/(HTML/CSS)
+      dt Private
+      dd
+        p Scala/CoffeeScript/Lua/C#/Flex
+.contents
+  h2.well.well-sm Old "HomePage" Contents
+  .old
+    dl
+      dt チャットRPGリプレイ
+      dd
+        p
+          a href="http://parrot-studio.com/replay/" http://parrot-studio.com/replay/

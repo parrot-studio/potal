@@ -1,0 +1,30 @@
+sns:
+  -
+    name: Twitter
+    account: '@parrot_studio'
+    url: 'https://twitter.com/parrot_studio'
+  -
+    name: GitHub
+    account: 'parrot-studio'
+    url: 'https://github.com/parrot-studio'
+  -
+    name: Hatena
+    account: 'parrot_studio'
+    url: 'http://b.hatena.ne.jp/parrot_studio/'
+  -
+    name: SlideShare
+    account: 'parrotstudio'
+    url: 'http://www.slideshare.net/parrotstudio'
+blogs:
+  -
+    title: ぱろっと・すたじお
+    url: 'http://parrot.hatenadiary.jp/'
+    description: '技術系（+α）'
+  -
+    title: Angel, alone ～孤独な天使～
+    url: 'http://parrot.blog21.fc2.com/'
+    description: 'RO(Ragnarok Online)＋α'        
+  -
+    title: 小狐話楼
+    url: 'http://kogitune.hateblo.jp/'
+    description: '趣味全般（漫画・ゲーム等）'    

@@ -1,0 +1,43 @@
+---
+name: products
+---
+
+.contents
+  h2.alert.alert-info Products
+  .products
+    dl
+      - data.products.each do |prod|
+        dt #{prod.title}
+        dd
+          - if prod.site
+            p
+              | Site : 
+              - if prod.closed
+                  | #{prod.site}
+              - else
+                  a href="#{prod.site}" #{prod.site}
+          - if prod.sample
+            p
+              | Sample : 
+              - if prod.closed
+                  | #{prod.sample}
+              - else
+                  a href="#{prod.sample}" #{prod.sample}
+          - if prod.source
+            p
+              | Source : 
+              a href="#{prod.source}" #{prod.source}
+          p #{prod.description}
+.contents
+  h4.well.well-sm About Me
+  #icon
+    img.icon src="./images/icon.jpg"
+  .aboutme
+    dl
+      dt Name : "ぱろっと" / T.Tachiki
+      dd
+        ul.list
+          - data.aboutme.sns.each do |s|
+            li
+              | #{s.name} : 
+              a href="#{s.url}" #{s.account}

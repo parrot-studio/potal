@@ -1,0 +1,80 @@
+- 
+  title: 'Wanna Be Free!! (for Gimle)'
+  site: 'http://parrot-studio.com/gimle'
+  source: 'https://github.com/parrot-studio/gagnrath_viewer'
+  description: Ruby2.1/Rails4/MariaDB
+-
+  title: 'Gagnrath - ROGv : Forts Watching System'
+  sample: 'http://ro.parrot-studio.com/rogvs'
+  source: 'https://github.com/parrot-studio/gagnrath'
+  description: 'Ruby2.1/Rails4/MariaDB(/C#/.NET)'
+- 
+  title: Pinzoro
+  source: 'https://github.com/parrot-studio/pinzoro'
+  description: RubyGems
+- 
+  title: 'RObjective-AI（仮）'
+  source: 'https://github.com/parrot-studio/ro-homu-ai'
+  description: 'Lua (included RagnarokOnline client)'
+-
+  title: 'ROGv - Forts Watching System'
+  sample: '(closed)'
+  source: 'https://github.com/parrot-studio/rogv'
+  description: 'C#/.NET/Ruby/Padrino(Sinatra)/MongoDB/Bootstrap'
+  closed: true
+-
+  title: 'ネタプログラミング言語クリエイター - Youma'
+  source: 'https://github.com/parrot-studio/youma'
+  description: 'Ruby/Rake/(Windstorm)'
+-
+  title: 'BF風言語解析器 - Windstorm'
+  source: 'https://github.com/parrot-studio/windstorm'
+  description: 'RubyGems'
+-
+  title: 'Fragments（仮）- Simple BBS like, with Twitter login'
+  sample: '(not public and closed)'
+  description: 'Ruby/Rails3/MySQL/OmniAuths'
+  closed: true
+-
+  title: 'Fragments of Stars - Astrology on RagnarokOnline'
+  site: 'rostars.jp (closed)'
+  description: 'Ruby/Rails3/MySQL/nginx+unicorn'
+  closed: true
+-
+  title: 'geo-triangle'
+  source: 'https://github.com/parrot-studio/geo-triangle'
+  description: 'RubyGems'
+-
+  title: 'こじつけトライアングル'
+  site: '(closed)'
+  source: 'https://github.com/parrot-studio/geo-triangle-sampleweb'
+  description: 'Ruby/Sinatra'
+  closed: true
+-
+  title: '(´･ω･`)ｼｮﾎﾞｰﾝとしたー'
+  site: '(closed)'
+  source: 'https://github.com/parrot-studio/shoborn'
+  description: 'CoffeeScript/Bootstrap/(TwitterAPI)'
+  closed: true
+-
+  title: '"RO"gue'
+  site: 'http://parrot-studio.com/rogue/'
+  description: 'RDGC/DXRuby/Exerb on Windows'
+-
+  title: 'rdgc-dm'
+  source: 'https://github.com/parrot-studio/rdgc-dm'
+  description: 'RubyGems'
+-
+  title: 'RDGC - Ruby(Random) Dungeon Game Core'
+  source: 'http://sourceforge.jp/projects/rdgc/'
+  description: 'Ruby/(DXRuby)'
+-
+  title: 'RO的悪魔の辞典'
+  site: 'http://ro-devil-dict.appspot.com/'
+  source: 'https://github.com/parrot-studio/ro-devel-dict-gae'
+  description: 'JRuby/Sinatra/data-mapper on GAE'
+-
+  title: 'Gv出欠管理システム for RO'
+  site: '(closed)'
+  description: 'Java/MySQL/Flex(Flash)'
+  closed: true

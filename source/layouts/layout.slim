@@ -1,0 +1,79 @@
+doctype html
+html
+  head
+    title parrot studio
+    meta http-equiv="Content-Type" content="text/html; charset=UTF-8"
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    link rel="shortcut icon" href="/favicon.ico"
+    == stylesheet_link_tag "normalize", "all"
+    /[if lt IE 9]
+      | <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      | <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+  body
+    .container
+      #header
+        #title
+          h1 parrot studio
+          p Ver 3.3 "Go ahead through the blue sky."
+        #photo
+          p
+            Photo material by 
+            = succeed "." do
+              a href="http://www5b.biglobe.ne.jp/~LilySky/" Nature
+      #menu
+        ul.nav.nav-pills
+          - data.menu.each do |m|
+            - if m.name == current_page.data.name
+              li.active
+                a href="./#{m.name}.html" #{m.text}
+            - else
+              li
+                a href="./#{m.name}.html" #{m.text}
+      #main
+        .row
+          .col-md-9
+            == yield
+          .col-md-3.hidden-sm
+            #twitter
+              erb:
+                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/parrot_studio" data-widget-id="306435680265965568">@parrot_studio からのツイート</a>
+                <script>!function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                      js = d.createElement(s);
+                      js.id = id;
+                      js.src = p + "://platform.twitter.com/widgets.js";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }
+                  }(document, "script", "twitter-wjs");</script>
+      #footer
+        #twitter_follow_button
+          erb:
+            <a href="https://twitter.com/parrot_studio" class="twitter-follow-button" data-show-count="false" data-lang="ja">@parrot_studioさんをフォロー</a>
+            <script>!function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = p + '://platform.twitter.com/widgets.js';
+                  fjs.parentNode.insertBefore(js, fjs);
+                }
+              }(document, 'script', 'twitter-wjs');</script>
+        #copyright
+          p Copyright (C) ぱろっと（parrot / @parrot_studio） All Rights Reserved.
+        #google_ads
+          erb:
+            <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-6405896892189579";
+            /* potal */
+            google_ad_slot = "3849345148";
+            google_ad_width = 468;
+            google_ad_height = 60;
+            //-->
+            </script>
+            <script type="text/javascript"
+                    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+
+    == google_analytics_tag

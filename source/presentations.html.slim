@@ -1,0 +1,31 @@
+---
+name: presentations
+---
+
+.contents
+  h2.alert.alert-info Presentations
+  .presentations
+    dl
+      - data.presentations.each do |pre|
+        dt #{pre.title}
+        dd
+          p
+            | Slide : 
+            a href="#{pre.slide}" #{pre.slide}
+          p
+            | Detail : 
+            a href="#{pre.detail}" #{pre.detail}
+          p #{pre.description}
+.contents
+  h4.well.well-sm About Me
+  #icon
+    img.icon src="./images/icon.jpg"
+  .aboutme
+    dl
+      dt Name : "ぱろっと" / T.Tachiki
+      dd
+        ul.list
+          - data.aboutme.sns.each do |s|
+            li
+              | #{s.name} : 
+              a href="#{s.url}" #{s.account}

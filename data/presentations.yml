@@ -1,0 +1,80 @@
+- 
+  title: '希望の関数と絶望の副作用'
+  slide: 'http://www.slideshare.net/parrotstudio/webcafe4-sideeffect'
+  detail: 'http://parrot.hatenadiary.jp/entry/2013/09/03/112657'
+  description: 'Functional Programming'
+-
+  title: '「もうなにもこわくない」関数型言語 〜ふつうのプログラマが関数型言語を知るべき理由・reload〜'
+  slide: 'http://www.slideshare.net/parrotstudio/gunmaweb13-functionallanguageretry'
+  detail: 'http://parrot.hatenadiary.jp/entry/2013/07/18/235625'
+  description: 'Ruby / Functional Programming'
+- 
+  title: 'ぱろっと、Padrinoやめるってよ'
+  slide: 'http://www.slideshare.net/parrotstudio/padrino-18790648'
+  detail: 'http://parrot.hatenadiary.jp/entry/2013/07/18/005901'
+  description: 'Sinatra -> Padrino -> Rails4'
+-
+  title: 'エンジニアがTRPGをやるべき理由 〜隣り合わせの遊びと技術〜'
+  slide: 'http://www.slideshare.net/parrotstudio/gunmaweb12-16489501'
+  detail: 'http://parrot.hatenadiary.jp/entry/2013/07/18/004024'
+  description: '"TRPG is Agile!!"'
+-
+  title: '(´･ω･`)としたーは衰退しました'
+  slide: 'http://www.slideshare.net/parrotstudio/ss-15368008'
+  detail: 'http://parrot.hatenadiary.jp/entry/2013/07/18/003000'
+  description: 'Twitter API'
+-
+  title: '私に作る時間がないのはどう考えても仕事が悪い！？'
+  slide: 'http://www.slideshare.net/parrotstudio/gunmaweb-10-20120908'
+  detail: 'http://parrot.hatenadiary.jp/entry/2013/07/18/001113'
+  description: '"You can create!"'
+-
+  title: '「だから、作れる」とRO廃人は言った'
+  slide: 'http://www.slideshare.net/parrotstudio/ro-gunmaweb-9-20120526-13117810'
+  detail: 'http://parrot.hatenadiary.jp/entry/2013/07/17/233627'
+  description: 'RO / CoffeeScript / Lua / Ruby / MongoDB / etc...'
+-
+  title: 'ネタプログラミング言語クリエイターYouma'
+  slide: 'http://www.slideshare.net/parrotstudio/youma'
+  detail: 'http://parrot.hatenadiary.jp/entry/20120307/1331047077'
+  description: 'BrainF**k / Virtual Machine'
+-
+  title: 'プログラマになれないあなたのための言語戦略'
+  slide: 'http://www.slideshare.net/parrotstudio/gunmaweb-7-20111217-10647388'
+  detail: 'http://parrot.hatenadiary.jp/entry/20111220/1324391867'
+  description: 'Programming Language (on Web) talks for non-programmers'
+-
+  title: 'Signs;Gate 〜RESTfulなサイトの作り方〜'
+  slide: 'http://www.slideshare.net/parrotstudio/signsgate-restful-gunmaweb-6-20110903'
+  detail: 'http://parrot.hatenadiary.jp/entry/20110908/1315492260'
+  description: 'RESTful Web / Rails3'
+-
+  title: '「再代入なんて、あるわけない」 ～ふつうのプログラマが関数型言語を知るべき理由～'
+  slide: 'http://www.slideshare.net/parrotstudio/gunmaweb-5-20110514'
+  detail: 'http://parrot.hatenadiary.jp/entry/20110517/1305642733'
+  description: 'Scala / Ruby / Functional Programming'
+-
+  title: '思い通りにいかないのがWebなんて割り切りたくないから'
+  slide: 'http://www.slideshare.net/parrotstudio/web-gunmaweb-4-20110212'
+  detail: 'http://parrot.hatenadiary.jp/entry/20110214/1297680547'
+  description: 'Web / JavaScript / etc...'
+-
+  title: '俺の体がこんなにすっきりしているわけがない ～5分でわかる催眠プログラミング～'
+  slide: 'http://www.slideshare.net/parrotstudio/5-in'
+  detail: 'http://parrot.hatenadiary.jp/entry/20101218/1292656880'
+  description: 'Hypnotic / Ruby'
+-
+  title: '「一番いいおすすめを頼む」 ～5分でわかるレコメンドエンジンの基礎～'
+  slide: 'http://www.slideshare.net/parrotstudio/20101212a'
+  detail: 'http://parrot.hatenadiary.jp/entry/20101215/1292400813'
+  description: 'Recommend'
+-
+  title: 'これからのJSの話をしよう ～jQueryで作るTwitterアプリ～'
+  slide: 'http://www.slideshare.net/parrotstudio/js-jquerytwitterin-gunmaweb-2-2010109'
+  detail: 'http://parrot.hatenadiary.jp/entry/20101011/1286785881'
+  description: 'JavaScript / jQuery / Twitter'
+-
+  title: 'どきっ！三行で作るランダムダンジョン！？ ～WEBもあるよ！～'
+  slide: 'http://www.slideshare.net/parrotstudio/2010821-web-5028398'
+  detail: 'http://parrot.hatenadiary.jp/entry/20100822/1282471199'
+  description: 'RDGC / WebAPI'
