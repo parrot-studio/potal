@@ -1,4 +1,8 @@
 - 
+  title: '紙片 - 「みんなに見せるにはちょっと早い、でも見てほしい、そんなあなたへ。」'
+  site: 'http://app.parrot-studio.com/shihen/'
+  description: Ruby2.1/Rails4/MariaDB
+- 
   title: 'Wanna Be Free!! (for Gimle)'
   site: 'http://parrot-studio.com/gimle'
   source: 'https://github.com/parrot-studio/gagnrath_viewer'
