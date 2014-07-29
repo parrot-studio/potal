@@ -1,8 +1,12 @@
-- 
+-
+  title: 'Get our light! チェンクロパーティーシミュレーター'
+  site: 'http://app.parrot-studio.com/ccpts'
+  description: Ruby2.1/Rails4/MariaDB/(for Tablet Device)
+-
   title: '紙片 - 「みんなに見せるにはちょっと早い、でも見てほしい、そんなあなたへ。」'
   site: 'http://app.parrot-studio.com/shihen/'
   description: Ruby2.1/Rails4/MariaDB
-- 
+-
   title: 'Wanna Be Free!! (for Gimle)'
   site: 'http://parrot-studio.com/gimle'
   source: 'https://github.com/parrot-studio/gagnrath_viewer'
@@ -12,11 +16,11 @@
   sample: 'http://ro.parrot-studio.com/rogvs'
   source: 'https://github.com/parrot-studio/gagnrath'
   description: 'Ruby2.1/Rails4/MariaDB(/C#/.NET)'
-- 
+-
   title: Pinzoro
   source: 'https://github.com/parrot-studio/pinzoro'
   description: RubyGems
-- 
+-
   title: 'RObjective-AI（仮）'
   source: 'https://github.com/parrot-studio/ro-homu-ai'
   description: 'Lua (included RagnarokOnline client)'
