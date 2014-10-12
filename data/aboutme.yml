@@ -21,10 +21,14 @@ blogs:
     url: 'http://parrot.hatenadiary.jp/'
     description: '技術系（+α）'
   -
-    title: Angel, alone ～孤独な天使～
-    url: 'http://parrot.blog21.fc2.com/'
-    description: 'RO(Ragnarok Online)＋α'        
+    title: あるネットゲーマーの日常
+    url: 'http://netgamer.hateblo.jp/'
+    description: 'RO/SmartPhone Games/etc...'        
   -
     title: 小狐話楼
     url: 'http://kogitune.hateblo.jp/'
     description: '趣味全般（漫画・ゲーム等）'    
+  -
+    title: Angel, alone ～孤独な天使～
+    url: 'http://parrot.blog21.fc2.com/'
+    description: 'RO(Ragnarok Online)＋α'
